@@ -41,12 +41,14 @@ a:hover, a:focus, .btn-link:hover, .btn-link:focus {color:#58bf00; text-decorati
 .body-content {padding-bottom:50px;}
 .desktop-show {display:inline-block!important;}
 .mobile-show {display:none!important;}
-.light-text {color:#AAAAAA;}
+.light-text {color:#aaa;}
 .green-text{color:#00ae1d;}
 .midpoint {position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;}
 .posi-rela {position:relative;}
 .posi-fixed {position:fixed;}
-.text-white {color:#FFFFFF;}
+.text-white {color:#fff;}
+a.a-yellow {color: #ff9;}
+a:hover.a-yellow {color: #ff9; text-decoration: underline}
 .dis-table {display:table;}
 .dis-table-row {display:table-row;}
 .dis-table-cell {display:table-cell;vertical-align:middle;}

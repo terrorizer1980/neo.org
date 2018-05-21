@@ -274,6 +274,25 @@ footer {
     }
 }
 
+/*organization*/
+#modal_organization h3 {
+    background-color: #58bf00;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#modal_organization h3 a {
+    color: white;
+}
+#modal_organization h3 span {
+    color: yellow;
+}
+#modal_organization h3 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
 /*客户端下载部分页面 - Client Download page*/
 .home-down {
     position:relative;

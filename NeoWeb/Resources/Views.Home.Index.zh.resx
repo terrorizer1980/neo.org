@@ -226,4 +226,7 @@
   <data name="Hardware" xml:space="preserve">
     <value>硬件</value>
   </data>
+  <data name="NEO Organization" xml:space="preserve">
+    <value>NEO 组织架构</value>
+  </data>
 </root>
