@@ -105,13 +105,15 @@
 
 .comm-ul {
     padding:0;
+    text-align:left;
 }
 
 .comm-ul li{
     display:inline-block;
     width:12%;
-    min-width:168px;
+    min-width:135px;
     margin-top:20px;
+    text-align:center;
 }
 
 .comm-ul li a{
