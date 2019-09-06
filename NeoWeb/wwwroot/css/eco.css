@@ -159,7 +159,7 @@ h2,.h2 {font-size:48px;}
     transition:all 0.3s;
 }
 
-/*.eco-logo .Liquidity span {
+.eco-logo .Liquidity span {
     background-image: url(https://neo-cdn.azureedge.net/images/eco/Liquidity.png);
 }
 .eco-logo .Wallets span {
@@ -176,9 +176,9 @@ h2,.h2 {font-size:48px;}
 }
 .eco-logo .Security span {
     background-image: url(https://neo-cdn.azureedge.net/images/eco/Security.png);
-}*/
+}
 
-.eco-logo .Liquidity span {
+/*.eco-logo .Liquidity span {
     background-image: url(../images/eco/Liquidity.png);
 }
 .eco-logo .Wallets span {
@@ -195,7 +195,7 @@ h2,.h2 {font-size:48px;}
 }
 .eco-logo .Security span {
     background-image: url(../images/eco/Security.png);
-}
+}*/
 
 .eco-logo .Liquidity .bibox {background-position: 42px 11px;}
 .eco-logo .Liquidity .kucoin {background-position: -256px 15px;}
@@ -220,6 +220,8 @@ h2,.h2 {font-size:48px;}
 .eco-logo .Wallets .zelcore {background-position: -560px -122px;}
 .eco-logo .Wallets .neon {background-position: 43px -190px;}
 .eco-logo .Wallets .hfoo {background-position: -264px -190px;}
+.eco-logo .Wallets .swpt {background-position: -564px -192px;}
+.eco-logo .Wallets .ledger {background-position: 42px -252px;}
 
 .eco-logo .Media .bcgamer {background-position: 19px 7px;}
 .eco-logo .Media .nnt {background-position: -283px 7px;}
@@ -235,6 +237,8 @@ h2,.h2 {font-size:48px;}
 .eco-logo .Media .dgaming {background-position: -582px -196px;}
 .eco-logo .Media .tuoluo {background-position: 17px -265px;}
 .eco-logo .Media .fork {background-position: -278px -264px;}
+.eco-logo .Media .coint {background-position: -584px -265px;}
+.eco-logo .Media .token {background-position: 8px -334px;}
 
 
 .eco-logo .Channels .review {background-position: 33px 13px;}
