@@ -24,6 +24,9 @@
             <th width="10%">
                 @Html.DisplayNameFor(model => model.Company)
             </th>
+            <th width="10%">
+                @Html.DisplayNameFor(model => model.Version)
+            </th>
             <th width="8%">
                 申请数量 NEO/GAS
             </th>
@@ -42,34 +45,37 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Company)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.NeoCount) / @Html.DisplayFor(modelItem => item.GasCount)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Time)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.PubKey)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Remark)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">备注</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">详情</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">删除</a>
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Version)
+            </td>
+            <td>
+                @(string.IsNullOrEmpty(item.NeoCount) ? "0" : item.NeoCount) / @(string.IsNullOrEmpty(item.GasCount) ? "0" :  item.GasCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PubKey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remark)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">备注</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">详情</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">删除</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>

@@ -250,6 +250,8 @@ namespace NeoWeb.Controllers
                     item.EnglishSummary = blog.EnglishContent.ClearHtmlTag(150);
                     item.ChineseTags = blog.ChineseTags?.Replace(", ", ",").Replace("，", ",").Replace("， ", ",");
                     item.EnglishTags = blog.EnglishTags?.Replace(", ", ",").Replace("，", ",").Replace("， ", ",");
+                    item.ChineseTitle = blog.ChineseTitle;
+                    item.EnglishTitle = blog.EnglishTitle;
                     item.EditTime = DateTime.Now;
                     item.IsShow = blog.IsShow;
                     _context.Update(item);
